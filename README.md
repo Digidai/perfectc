@@ -4,29 +4,20 @@ PerfectC is a modern web application built with Next.js, featuring a beautiful U
 
 ## Features
 
-- 🎨 Modern and responsive UI design
-- ⚡ Built with Next.js for optimal performance
-- 🎯 Tailwind CSS for utility-first styling
-- 📱 Mobile-friendly interface
+- 🚀 Built with Next.js 14
+- 💅 Styled with Tailwind CSS
+- 🎨 Beautiful UI components from Shadcn UI
+- 📱 Fully responsive design
 - 🌙 Dark mode support
-- 🧩 Reusable UI components from Shadcn
+- 🔥 Fast and optimized performance
 
-## Tech Stack
+## Prerequisites
 
-- [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Shadcn UI](https://ui.shadcn.com/)
-- [TypeScript](https://www.typescriptlang.org/)
+Before you begin, ensure you have installed:
+- Node.js (v18 or higher)
+- pnpm (v8 or higher)
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- pnpm (recommended) or npm
-
-### Installation
 
 1. Clone the repository:
 ```bash
@@ -39,19 +30,38 @@ cd perfectc
 pnpm install
 ```
 
-3. Run the development server:
+3. Start the development server:
 ```bash
 pnpm dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Development
+## Scripts
 
 - `pnpm dev` - Start development server
 - `pnpm build` - Build for production
 - `pnpm start` - Start production server
 - `pnpm lint` - Run ESLint
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Project Structure
+
+```
+perfectc/
+├── app/              # Next.js app directory
+├── components/       # React components
+├── lib/             # Utility functions
+├── public/          # Static assets
+└── styles/          # Global styles
+```
 
 ## Contributing
 
